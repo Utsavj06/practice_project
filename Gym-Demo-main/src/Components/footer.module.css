@@ -1,0 +1,35 @@
+.top{ 
+    display: flex;
+    justify-content: space-around;
+    margin-top:30px;
+    color: white;   
+}
+
+.logos {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.socialMedia{
+    display: flex;
+    gap: 30px; 
+}
+
+.footerList{
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footerListul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: flex-start;
+    margin-left: -40px;
+}
+ 

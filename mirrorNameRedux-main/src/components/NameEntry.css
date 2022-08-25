@@ -1,0 +1,23 @@
+.Component{
+    width:48%;
+    display:flex;
+    justify-content:center;
+    background-color:blue;
+    height:657px;
+    align-items:center;
+}
+
+.button_flex{
+    display:flex;
+    gap:20px;
+    width:400%;
+}
+
+.diplay_flex{
+    display:flex;
+    justify-content:center
+}
+
+.myBorder{
+    width:250%;
+}

@@ -1,0 +1,38 @@
+.top {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardMaterial {
+    display: flex;
+    gap: 50px;
+    color: white;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}
+
+.parentContentDiv {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 50px;
+}
+
+.bottomDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottombutton {
+    background-color: #990505;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    height: 50px;
+    width: 130px;
+    color: white;
+}

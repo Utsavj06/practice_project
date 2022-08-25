@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="calcibody">
+      <label id="label">A Simple Calculator</label>
+
+      <input id="space" type="text" placeholder="Enter The Number" />
+      <div class="button">
+        <button id="b1" class="bt" onclick="getValue1()">1</button>
+        <button id="b2" class="bt" onclick="getValue2()">2</button>
+        <button id="b3" class="bt" onclick="getValue3()">3</button>
+        <button id="b+" class="bt" onclick="getValuep()">+</button>
+        <button id="b4" class="bt" onclick="getValue4()">4</button>
+        <button id="b5" class="bt" onclick="getValue5()">5</button>
+        <button id="b6" class="bt" onclick="getValue6()">6</button>
+        <button id="b-" class="bt" onclick="getValuem()">-</button>
+        <button id="b7" class="bt" onclick="getValue7()">7</button>
+        <button id="b8" class="bt" onclick="getValue8()">8</button>
+        <button id="b9" class="bt" onclick="getValue9()">9</button>
+        <button id="b=" class="bt" onclick="getValuee()">=</button>
+        <button id="b*" class="bt" onclick="getValuemu()">*</button>
+        <button id="b0" class="bt" onclick="getValuezero()">0</button>
+        <button id="b/" class="bt" onclick="getValued()">/</button>
+        <button id="bc" class="bt" onclick="iclick()">CC</button>
+      </div>
+    </div>
+
+    <script src="add.js"></script>
+  </body>
+</html>

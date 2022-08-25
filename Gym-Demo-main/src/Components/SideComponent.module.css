@@ -1,0 +1,49 @@
+.topDiv {
+    width: 25%;
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.ResetButton {
+    background-color: #940404;
+    color: white;
+    height: 30px;
+    border: none;
+    width: 75px;
+    margin-top: 35px;
+    font-size: 17px;
+    border-radius: 3px;
+}
+
+.LocationInput {
+    height: 40px;
+    width: 230px;
+    font-size: 20px;
+    background-color: #3b403c;
+    color: #a8b5ab;
+    border: 2px solid #546357;
+    border-radius: 4px;
+}
+
+.Price {
+    height: 40px;
+    width: 60px;
+    font-size: 20px;
+    background-color: #3b403c;
+    color: #a8b5ab;
+    border: 2px solid #546357;
+    border-radius: 4px;
+}
+
+.citySelection {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    focus: none;
+    background-color: #3b403c;
+    color: #a8b5ab;
+    border: 2px solid #546357;
+    border-radius: 4px;
+    outline: none;
+}
